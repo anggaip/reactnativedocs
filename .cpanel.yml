@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/u1567233/reactnative/
+    - export DEPLOYPATH=/home/u1567233/public_html/nodejs.kerjaprogrammer.com
     - /bin/cp package.json $DEPLOYPATH
