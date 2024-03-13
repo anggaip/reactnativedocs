@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u1567233/reactnative/
+    - /bin/cp package.json $DEPLOYPATH
