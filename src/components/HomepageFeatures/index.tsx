@@ -10,32 +10,37 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Pengembangan native untuk semuanya',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        React Native memungkinkan Anda membuat aplikasi yang benar-benar asli
+        dan tidak mengganggu pengalaman pengguna. Ini menyediakan serangkaian
+        inti komponen asli platform agnostik seperti <code>Tampilan</code>,
+        <code>Teks</code>, dan <code>Gambar</code> yang dipetakan langsung
+        ke blok penyusun UI native platform.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Ditulis dalam JavaScript—dirender dengan kode native',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        React primitif dirender ke UI platform native, artinya aplikasi
+        Anda menggunakan API platform asli yang sama dengan yang digunakan
+        aplikasi lain.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Buat aplikasi native untuk Android, iOS, dan lainnya menggunakan React',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        React Native menggabungkan bagian terbaik dari pengembangan native
+        dengan React, perpustakaan JavaScript terbaik di kelasnya untuk
+        membangun antarmuka pengguna.
       </>
     ),
   },

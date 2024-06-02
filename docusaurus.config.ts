@@ -4,8 +4,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'React Native ID',
-  tagline: 'Tutorial React Native Bahasa Indonesia',
-  favicon: 'img/favicon.ico',
+  tagline: 'Tutorial React Native Bahasa Indonesia.',
+  favicon: 'img/manifest-icon-reactnative.png',
 
   // Set the production url of your site here
   url: 'https://docs.kerjaprogrammer.com',
@@ -61,18 +61,29 @@ const config: Config = {
       title: 'React Native ID',
       logo: {
         alt: 'React Native ID Logo',
-        src: 'img/logo.svg',
+        src: 'img/header_logo_reactnative.svg',
       },
       items: [
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'tutorialSidebar',
+        //   position: 'right',
+        //   label: 'Tutorial',
+        // },
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
+          type: 'dropdown',
+          label: 'Development',
+          position: 'right',
+          items: [
+            {
+              label: 'Tutorial',
+              to: '/docs/dasar/pendahuluan'
+            }
+          ]
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'Blog', position: 'right'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/facebook/react-native',
           label: 'GitHub',
           position: 'right',
         },
@@ -95,15 +106,15 @@ const config: Config = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/reactnative',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discordapp.com/invite/reactnative',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/reactnative',
             },
           ],
         },
@@ -116,7 +127,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/facebook/react-native',
             },
           ],
         },
