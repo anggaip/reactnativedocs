@@ -3,12 +3,12 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'React Native ID',
-  tagline: 'Tutorial React Native Bahasa Indonesia.',
+  title: 'Kerja Programmer',
+  tagline: 'Enjoy My Videos on Youtube',
   favicon: 'img/manifest-icon-reactnative.png',
 
   // Set the production url of your site here
-  url: 'https://docs.kerjaprogrammer.com',
+  url: 'https://kerjaprogrammer.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -58,18 +58,13 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
+      hideOnScroll: true,
       title: 'React Native ID',
       logo: {
         alt: 'React Native ID Logo',
         src: 'img/header_logo_reactnative.svg',
       },
       items: [
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'tutorialSidebar',
-        //   position: 'right',
-        //   label: 'Tutorial',
-        // },
         {
           type: 'dropdown',
           label: 'Development',

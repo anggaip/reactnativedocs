@@ -38,3 +38,62 @@
   --ifm-color-primary-lighter: #1fcaf9;
   --ifm-color-primary-lightest: #43d3fa;
 }
+
+.image-header {
+  align-items: center;
+  background-image: url('https://wiki.brucesong.xyz/assets/images/home_background-1ba3938d11ecc05b92ef239fe0d5963a.jpeg');
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+}
+.title-wrapper {
+  background: rgba(0, 0, 0, .5);
+  border-radius: 1rem;
+  letter-spacing: 0;
+  margin-bottom: 0;
+  padding: 20px;
+}
+.title-image>img {
+  width: 12%;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #d4d5d8;
+  border-width: medium;
+}
+.hero__title {
+  color: #ebedf0;
+}
+.hero__subtitle {
+  color: #ebedf0;
+}
+.navbar {
+  display: none;
+  background-color: transparent;
+}
+.main-wrapper {
+  background-color: #ffffff;
+  display: grid !important;
+}
+.footer {
+  display: none !important;
+}
+
+@media screen and (max-width: 996px) {
+  .hero__title {
+    font-size: 2rem;
+  }
+  .hero__subtitle {
+    font-size: 1rem;
+  }
+  .title-image>img {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 996px) {
+  .title-wrapper {
+    width: 38%;
+  }
+}
